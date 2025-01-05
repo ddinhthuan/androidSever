@@ -43,7 +43,7 @@ app.post("/upload", async (req, res) => {
           content: [
             {
               type: "text",
-              text: "Hãy mô tả những gì bạn thấy qua các keywords, trả lời bằng tiếng việt nhé!"
+              text: "Hãy mô tả những gì bạn thấy qua các keywords (chỉ keyword), trả lời trên một dòng, định dạng bình thường không in đậm, không xuống dòng, trả lời bằng tiếng việt nhé!"
             },
             {
               type: "image_url",
