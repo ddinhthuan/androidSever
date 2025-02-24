@@ -43,7 +43,7 @@ app.post("/upload", async (req, res) => {
           content: [
             {
               type: "text",
-              text: "Hãy mô tả những gì bạn thấy qua các keywords (chỉ keyword), trả lời trên một dòng, định dạng bình thường không in đậm, không xuống dòng, trả lời bằng tiếng việt nhé!"
+              text: "Tôi là một người mù, tôi cần biết có những gì xuất hiện trong ảnh tôi vừa chụp cho bạn. Nếu ảnh có cảnh vật, hãy mô tả cho tôi cảnh vật trong khoảng 15 từ, không cần giải thích gì thêm. Nếu ảnh có chữ viết, hãy cho tôi biết trên đó viết gì, không giới hạn từ ngữ, toàn bộ các câu trả lời của bạn nên là tiếng Việt, bạn không cần giải thích gì thêm ngoài nội dung tôi cần"
             },
             {
               type: "image_url",
