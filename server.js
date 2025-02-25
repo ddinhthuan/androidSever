@@ -43,7 +43,7 @@ app.post("/upload", async (req, res) => {
           content: [
             {
               type: "text",
-              text: "Cho tôi biết tên của một vật thể nổi bật nhất trong hình, chỉ cung cấp tên,không giải thích gì thêm"
+              text: "Cho tôi biết tên của một vật thể nổi bật nhất trong hình, chỉ cung cấp tên,không giải thích gì thêm, chỉ dùng kí tự viết thường, không chấm phẩy, trả lời bằng tiếng việt"
             },
             {
               type: "image_url",
